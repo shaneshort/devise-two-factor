@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'rails',          '<= 6.1.99'
+  s.add_runtime_dependency 'rails',          '~> 7.0'
   s.add_runtime_dependency 'devise',         '~> 4.0'
   s.add_runtime_dependency 'rotp',           '~> 6.0'
 
